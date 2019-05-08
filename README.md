@@ -1,2 +1,6 @@
 # zh-tw-translate
-简繁体相互转换
+汉字简体转繁体
+
+```
+composer require sn01615/zh-tw-translate
+```
