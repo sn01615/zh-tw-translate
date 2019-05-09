@@ -5,5 +5,5 @@
 ```
 composer require sn01615/zh-tw-translate
 ```
-## 参考
+# Reference
 https://github.com/songjian/zh2tw
