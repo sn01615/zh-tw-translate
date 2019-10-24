@@ -16,4 +16,11 @@ class Translate
         $from = array_keys($map);
         return str_replace($from, $map, $text);
     }
+
+    public static function hant2zh($text)
+    {
+        $map = array_merge(Dict::zh2TW(), Dict::zh2Hant());
+        $map = array_flip($map);
+        return self::turn($text, $map);
+    }
 }
